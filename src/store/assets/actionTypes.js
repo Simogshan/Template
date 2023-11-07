@@ -1,0 +1,25 @@
+// actionTypes.js
+
+// Fetch ASSETs
+export const FETCH_ASSETS = 'FETCH_ASSETS';
+export const FETCH_ASSETS_SUCCESS = 'FETCH_ASSETS_SUCCESS';
+export const FETCH_ASSETS_FAILURE = 'FETCH_ASSETS_FAILURE';
+
+// Add ASSET
+export const ADD_ASSET = 'ADD_ASSET';
+export const ADD_ASSET_SUCCESS = 'ADD_ASSET_SUCCESS';
+export const ADD_ASSET_FAILURE = 'ADD_ASSET_FAILURE';
+
+// Update ASSET
+export const UPDATE_ASSET = 'UPDATE_ASSET';
+export const UPDATE_ASSET_SUCCESS = 'UPDATE_ASSET_SUCCESS';
+export const UPDATE_ASSET_FAILURE = 'UPDATE_ASSET_FAILURE';
+
+// Delete ASSET
+export const DELETE_ASSET = 'DELETE_ASSET';
+export const DELETE_ASSET_SUCCESS = 'DELETE_ASSET_SUCCESS';
+export const DELETE_ASSET_FAILURE = 'DELETE_ASSET_FAILURE';
+
+// Set form error
+export const SET_FORM_ERROR = 'SET_FORM_ERROR';
+export const RESET_FORM_ERROR = 'RESET_FORM_ERROR';
